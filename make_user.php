@@ -3,7 +3,7 @@ require __DIR__ . '/config_mysqli.php';
 
 $email = '67160224@go.buu.ac.th';
 $name  = 'praweenut';
-$plain = '14282548'; // เปลี่ยนตามต้องการ
+$plain = '14282548eiei'; // เปลี่ยนตามต้องการ
 
 $hash = password_hash($plain, PASSWORD_DEFAULT);
 
