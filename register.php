@@ -1,5 +1,4 @@
 <?php
-// เรียกไฟล์ config.php ที่เก็บข้อมูลการเชื่อมต่อฐานข้อมูล
 include('config.php');
 
 // เปิด session เพื่อใช้ CSRF token และ flash message
@@ -148,3 +147,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   </div>
 </body>
 </html>
+include('config.php');
