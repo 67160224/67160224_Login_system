@@ -1,5 +1,8 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 require __DIR__ . '/config_mysqli.php';
+
 
 $email = '67160224@go.buu.ac.th';
 $name  = 'praweenut';
